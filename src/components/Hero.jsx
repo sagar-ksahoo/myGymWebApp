@@ -14,7 +14,7 @@ const Hero = () => {
 
   return (
     <>
-      <div className="hero">
+      <div className="hero" id="home">
         <div className="blur blur-h"></div>
         <div className="left-side">
           <Header />
