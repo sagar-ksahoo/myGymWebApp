@@ -87,3 +87,24 @@
   top: 10rem;
   right: 0rem;
 }
+
+@media screen and (max-width: 768px) {
+  .plans {
+    flex-direction: column;
+  }
+
+  .plans > :nth-child(1) {
+    transform: none;
+    width: fit-content;
+  }
+
+  .plans > :nth-child(2) {
+    transform: none;
+    width: fit-content;
+  }
+
+  .plans > :nth-child(3) {
+    transform: none;
+    width: fit-content;
+  }
+}
